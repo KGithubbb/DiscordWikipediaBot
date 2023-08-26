@@ -2,7 +2,7 @@ import wikipediaapi
 import discord
 from discord import app_commands
 
-TOKEN = "ODYzMDAyMDk1ODEyNzM5MDgy.Grdklk.5HeCbt1BTUWVsSr5qN2vi6aT6r5HjYvMuneJWM"
+TOKEN = ""
 
 # Wikipediaの言語を日本語に設定
 wiki_lang = "ja"
@@ -10,7 +10,7 @@ wiki_lang = "ja"
 # ユーザーエージェントを指定してWikipediaにアクセス
 wiki_wiki = wikipediaapi.Wikipedia(
     language=wiki_lang,
-    user_agent="YOUREMYNAMEISNT"
+    user_agent="URUSERAGENT"
 )
 global text
 def EoN():
